@@ -1,0 +1,215 @@
+body {
+	text-align: center;
+	margin:0px;
+	font-family: "Arial", "����";
+	font-size: 12px;
+}
+
+.wraplogin{  
+	position:relative; 
+	width:500px; 
+	height:275px; 
+	margin:0 auto; 
+	margin-top:60px;
+	border-top:#147fbf 4px solid;
+	border-left:#147fbf 4px solid;
+	border-right:#147fbf 4px solid;
+	border-bottom:#147fbf 4px solid; 
+	background-position:left 40px; 
+	background:#427594;
+}
+
+.diagnosedlogo{  
+	position:relative; 
+	width:793px; 
+	height:583px; 
+	margin:0px auto; 
+	margin-top:60px;
+	border-top:#147fbf 0px solid;
+	border-left:#147fbf 0px solid;
+	border-right:#147fbf 0px solid;
+	border-bottom:#147fbf 0px solid; 
+	background-position:left 40px; 
+	background-color:#e8e8e8;
+}
+
+#logo{
+	position:relative;
+	width:793px;
+	height:107px;
+	z-index: 5;
+	background-color:#e8e8e8;
+	background-image: url(../images/diagnosed_logo.gif);
+	background-repeat: no-repeat;
+} 
+
+
+#top{
+	position:relative;
+	width:790px;
+	height:70px;
+	z-index: 5;
+	background-color:#022556;
+	background-image: url(../images/top_img_20K.jpg);
+	background-repeat: no-repeat;
+} 
+
+.logincenter{ 
+	display:block; 
+	height:238px; 
+	width:100%; 
+	list-style-type:none;
+}
+
+.login_word{
+	position:absolute;
+	right:-75px;
+	top:108px;
+	height:211px;
+	width:438px; 
+	color:#fff;
+	list-style-type:none;
+}
+
+.title_index{ 
+	position:absolute;
+	right:12px;
+	top:-23px;
+	height:200px;
+	width:430px;
+	font-size:18px; 
+	font-weight:bold;
+	
+}
+
+.content_word{ 
+	position:absolute;
+	right:11px;
+	top:0px;
+	height:200px;
+	width:430px;
+	
+}
+
+.w_text{ 
+	position:relative;
+	display:block;
+	width:94%;
+	margin:0 auto;
+	color:#000000; 
+	font-size:12px; 
+	line-height:20px;
+	clear:both; 
+	
+ }
+ 
+  .w_text ul{
+    display:block;
+	position:absolute;
+	right:220px;
+	top:-10px;
+	height:45px;
+	width:160px;
+	list-style-type:none;
+	
+ }
+ 
+ .w_text ul li.left_table{
+
+	
+ }
+ 
+ .w_text ul li.right_table{
+	
+ }
+
+ 
+ .login_button{
+	 display:block;
+	 position:absolute;
+	 right:300px;
+	 height:30px;
+	
+	 top: 65px;
+ }
+ 
+  .board{
+	width:122px;     /* �����������ĳ��� */    
+	height:15px;   /* �����������Ŀ�� */    
+	position:relative;   /* ����涨�����Ķ�λ���� */    
+	top:-1px;   /* ����涨�������ԭλ������ƫ��100px  */    
+	margin-left:105px;    /*  ����涨�������ԭλ������ƫ��300px  */
+ }
+ 
+   .errorinfo{
+	width:160px;     /* �����������ĳ��� */    
+	height:18px;   /* �����������Ŀ�� */    
+	position:relative;   /* ����涨�����Ķ�λ���� */    
+	top:-23px;   /* ����涨�������ԭλ������ƫ��100px  */    
+	margin-left:235px;    /*  ����涨�������ԭλ������ƫ��300px  */
+	color: red;
+ }
+
+.hg_logo {
+	font-family: "Tohama", "Arial", "����";
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	color: #4c4c4c;
+	padding: 10px;	
+}
+
+.whitebold {
+	color: #fff;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+a.whitebold:link {
+	color: #c9c9c9;
+	text-decoration: none;
+}
+a.whitebold:visited {
+	color: #c9c9c9;
+	text-decoration: none;
+}
+a.whitebold:active {
+	color: #fff;
+	text-decoration: none;
+}
+a.whitebold:hover {
+	color: #fff;
+	text-decoration:none;
+}
+
+.info_text{
+	text-align: center;
+	color: #9d9d9d;
+	font-size: 11px;
+}
+
+.submit{
+	background: #fefefe url(../images/button_bg.gif) center repeat-x;
+	font: 12px Arial, ����;
+	color:#000;
+    height: 21px;
+    border: #c8c8c8 1px solid;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+.text_copyright {
+	color: #434343;
+	font-family: "Arial";
+	font-size: 11px;
+	height: 24px;
+}
+
+.input_login {
+	border: 1px solid #ccccce;
+	background-image: url(../images/login_inupt.gif);
+	height: 21px;
+	width: 180px;
+	padding-left: 5px;
+	padding-top: 3px;
+}
